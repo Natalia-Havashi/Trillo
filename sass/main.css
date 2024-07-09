@@ -69,6 +69,10 @@ body {
   width: 100%;
   background-color: var(--color-grey-light-3);
 }
+.search__input ::-moz-placeholder {
+  font-weight: 100;
+  color: var(--color-grey-light-4);
+}
 .search__input ::placeholder {
   font-weight: 100;
   color: var(--color-grey-light-4);
@@ -338,6 +342,4 @@ body {
 .user-reviews {
   background-color: aqua;
   flex: 1;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */
